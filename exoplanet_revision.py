@@ -73,7 +73,7 @@ print(example_list2[2])   # this gives c
 
 ''' 
 Lists are less convenient than arrays when it comes to numerical operations. For 
-example, we can directly multiply arrays by constants   
+example, we can directly divide arrays by constants   
 '''
 x_array = np.array([1,2,3,4,5,6,7])
 new_x_array = x_array / 10.
@@ -122,9 +122,10 @@ print(new_x_list)
 Try the following mini-exercise:
 
 We have two arrays of the same length. Calculate the difference between each 
-consecutive element for each array, and store results to create two lists. 
-Then, subtract each element in the diff list from array2 by those from array1,
-if the result is less than 10, store it into a list. 
+consecutive element for each array, and store results to create two lists - let's 
+call it diff1_list and diff2_list. 
+Then, subtract each element in diff1_list by those in diff2_list,
+if the result is less than 10, store it into a new list. 
 Print your final result. 
 
 '''
